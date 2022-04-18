@@ -1,3 +1,72 @@
+// DotNotation Activities
+console.log ("   |   |   \n   |   |  \n   |   |   \n ---------\n   |   |   \n   |   |  \n   |   |   \n ---------\n   |   |   \n   |   |  \n   |   |    ")
+
+// Variables Activities
+// Activity 1 
+// variables listing with back tick
+let name = `Jessica`
+let age3 = `30`
+let favouriteColour = `orange`
+
+console.log(`My name is ${name}, I am ${age3} and my favourite colour is ${favouriteColour}`);
+
+// Stretch - update a variable 
+name = `Judith`
+console.log(`My name is ${name}, I am ${age3} and my favourite colour is ${favouriteColour}`);
+
+// Activity 2
+let breakfast = `cereal`
+let lunch = `salad`
+let dinner = `curry`
+
+console.log (`Today I ate ${breakfast}, ${lunch}, ${dinner}`);
+// update 
+breakfast = `toast`
+lunch = `soup`
+dinner = `salad`
+
+console.log (`Tomorrow I will eat ${breakfast}, ${lunch}, ${dinner}`);
+
+// Activity 3
+// countdown to next birthday
+let today = new Date
+let birthday = Date.parse ("2023, 03,12")
+
+let countdown = ((birthday - today))/ (1000*60*60*24);
+
+console.log(Math.floor(countdown));
+
+// count from date of birth to today
+let today = new Date
+let birthday = Date.parse ("1992, 03,12")
+
+console.log(Math.floor((today - birthday)/ (1000*60*60*24)));
+
+// Activity 4 
+let space1 = `X`
+let space2 = `0`
+let space3 = ``
+let space4 = `X`
+let space5 = `X`
+let space6 = ``
+let space7 = `0`
+let space8 = ``
+let space9 = ``
+
+console.log (`  
+   |   |   \n 
+${space1}  | ${space2} | ${space3} \n 
+   |   |   \n
+-----------\n 
+   |   |   \n
+ ${space4} | ${space5} | ${space6} \n 
+   |   |   \n
+-----------\n  
+   |   |   \n 
+ ${space7} |  ${space8} | ${space9} \n 
+   |   |   \n
+ `)
+
 // IfSwitchActivities
 // // Activity 1
 
@@ -190,7 +259,7 @@ for (let i = 0; i<6; i++){
     console.log(num = Math.floor(Math.random()*30))}{
     if (num%7 ==0){
         console.log(`${num} is divisible by 7`)}
-}
+};
 
 // Activity 6 
 let bobsFollowers = [
